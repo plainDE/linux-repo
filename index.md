@@ -1,4 +1,3 @@
-## Linux repos
 
 ### ArchLinux repository
 
