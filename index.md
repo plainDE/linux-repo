@@ -1,7 +1,7 @@
 
 ## Arch Linux repo
 
-Add following lines to your pacman.conf
+To use repository add following lines to your pacman.conf
 
 ```
 [plainDE]                                                                       
