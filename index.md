@@ -19,3 +19,6 @@ And then you need to get and trust gpg key
 
 # pacman-key --lsign-key 77F2CF964D0A9F5BA3DE3D313E4E9C7D66E44BF7
 ```
+
+
+**Caution**: any upgrade of plainDE could break config
