@@ -1,7 +1,4 @@
-
-##
-
-### ArchLinux repository
+## ArchLinux repository
 
 To use repository add following lines to your pacman.conf
 
