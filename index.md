@@ -1,5 +1,6 @@
+# plainDE repo storage
 
-## Arch Linux repo
+## ArchLinux repository
 
 To use repository add following lines to your pacman.conf
 
@@ -17,5 +18,5 @@ And then you need to get and trust gpg key
 # pacman-key --lsign-key 77F2CF964D0A9F5BA3DE3D313E4E9C7D66E44BF7
 ```
 
+**Caution.** Currently plainDE can work incorrectly after updates. Reinstall plainDE completely to update it.
 
-**Caution**: any upgrade of plainDE could break config
