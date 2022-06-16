@@ -1,0 +1,21 @@
+
+## Arch Linux repo
+
+To use repository add following lines to your pacman.conf
+
+```
+[plainDE]                                                                       
+SigLevel = Required                                                             
+Server = https://repo.plainde.org/arch/$arch 
+```
+
+And then you need to get and trust gpg key
+
+```
+# pacman-key --recv-keys 77F2CF964D0A9F5BA3DE3D313E4E9C7D66E44BF7
+
+# pacman-key --lsign-key 77F2CF964D0A9F5BA3DE3D313E4E9C7D66E44BF7
+```
+
+
+**Caution**: any upgrade of plainDE could break config
