@@ -9,7 +9,7 @@ Add following lines to your pacman.conf
 ```
 [plainDE]                                                                       
 SigLevel = Required                                                             
-Server = https://repo.plainde.org/arch/$(arch) 
+Server = https://repo.plainde.org/arch/$arch 
 ```
 
 And then you need to get and trust gpg key
