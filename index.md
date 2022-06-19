@@ -10,7 +10,7 @@ SigLevel = Required
 Server = https://repo.plainde.org/arch/$arch 
 ```
 
-And then you need to get and trust gpg key. To do this, run as root:
+And then you need to get and trust our gpg key (Ivan Bushchik <ivabus@ivabus.dev>). To do this, run as root:
 
 ```sh
 pacman-key --recv-keys 77F2CF964D0A9F5BA3DE3D313E4E9C7D66E44BF7
