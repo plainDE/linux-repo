@@ -1,6 +1,6 @@
 # plainDE repo storage
 
-## ArchLinux repository
+## pacman-based distros
 
 To use repository add following lines to the end of your `/etc/pacman.conf`
 
