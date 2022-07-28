@@ -1,4 +1,2 @@
 theme: primer
-plugins:
-- jekyll-remote-theme
 title: "plainDE repository"
