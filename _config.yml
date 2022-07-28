@@ -1,4 +1,4 @@
-remote_theme: pages-themes/primer@v0.2.0
+theme: primer
 plugins:
 - jekyll-remote-theme
 title: "plainDE repository"
