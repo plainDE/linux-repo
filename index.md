@@ -10,7 +10,7 @@ SigLevel = Required
 Server = https://repo.plainde.org/arch/$arch 
 ```
 
-And then you need to get and trust our gpg key (`Ivan Bushchik <ivabus@ivabus.dev>`). To do this, run as root:
+And then you need to get and trust our gpg key (`Ivan Bushchik <ivabus@ivabus.dev>`). To do this, run as root
 
 ```sh
 pacman-key --recv-keys 3E4E9C7D66E44BF7
@@ -18,4 +18,8 @@ pacman-key --recv-keys 3E4E9C7D66E44BF7
 pacman-key --lsign-key 3E4E9C7D66E44BF7
 ```
 
-To install plainDE just run `pacman -S plainde-meta` as root.
+To install plainDE just run as root
+
+```sh
+pacman -S plainde-meta
+```
