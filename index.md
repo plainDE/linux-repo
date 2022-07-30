@@ -18,5 +18,4 @@ pacman-key --recv-keys 3E4E9C7D66E44BF7
 pacman-key --lsign-key 3E4E9C7D66E44BF7
 ```
 
-**Caution.** Currently plainDE can work incorrectly after updates. Reinstall plainDE completely to update it.
-
+To install plainDE just run `pacman -S plainde-meta` as root.
