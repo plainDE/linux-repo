@@ -1,1 +1,0 @@
-plainDE.db.tar.zst.sig
